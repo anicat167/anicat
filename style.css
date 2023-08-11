@@ -101,9 +101,6 @@ footer {
     margin: 10px;
 }
 @media screen and (max-width: 902px) {
-    .bar {
-        
-    }
     .hamburger {
         display: block;
         background-color: darkgray;
