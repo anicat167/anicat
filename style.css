@@ -20,6 +20,22 @@ header {
     height: 90px;
     background-color: darkgray;
 }
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+nav {
+    background-color: darkgray;
+}
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
 .logo {
     cursor: pointer;
     margin-right: auto;
@@ -32,23 +48,23 @@ header {
     position: relative;
     background-size: contain;
     width: 170px;
-    top: -5px;
+    top: -6px;
 
 }
-.nav_links {
+.nav_menu {
     list-style: none;
     background-color: darkgray;
 }
-.nav_links li {
+.nav_menu li {
     display: inline-block;
     padding: 0px 20px;
     background-color: darkgray;
 }
-.nav_links li a {
+.nav_menu li a {
     transition: all 0.3s ease 0s;
     background-color: darkgray;
 }
-.nav_links li a:hover  {
+.nav_menu li a:hover  {
     color: rgba(173, 216, 230, 1.5);
 }
 button {
@@ -83,4 +99,42 @@ footer {
 }
 .line_footer {
     margin: 10px;
+}
+@media screen and (max-width: 902px) {
+    .bar {
+        
+    }
+    .hamburger {
+        display: block;
+        background-color: darkgray;
+    }
+    .hamburger active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav_menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: darkgray;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+    button {
+        display: none;
+    }
+    .footer_nav {
+        margin: 0px;
+    }
+}
+@media screen and (max-width: 742px) {
+    
 }
