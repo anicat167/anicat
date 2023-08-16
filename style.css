@@ -136,7 +136,14 @@ footer {
     .footer_nav {
         margin: 0px;
     }
+    button {
+        position: fixed;
+    }
 }
-@media screen and (max-width: 742px) {
-    
+@media screen and (max-width: 957px) {
+    button {
+        position: absolute;
+        top: 25px;
+        right: 50px;
+    }
 }
