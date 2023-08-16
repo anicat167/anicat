@@ -116,7 +116,6 @@ footer {
         transform: translateY(-8px) rotate(-45deg);
     }
     .nav_menu  {
- 
         position: fixed;
         left: -100%;
         top: 70px;
@@ -136,11 +135,8 @@ footer {
     .footer_nav {
         margin: 0px;
     }
-    button {
-        position: fixed;
-    }
 }
-@media screen and (max-width: 957px) {
+@media screen and (min-width: 903px) and (max-width: 957px) {
     button {
         position: absolute;
         top: 25px;
