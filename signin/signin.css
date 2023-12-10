@@ -1,7 +1,5 @@
 footer {
     position: absolute;
-    bottom: 0px;
-    overflow: hidden;
 }
 input {
     width: 300px;
@@ -29,7 +27,7 @@ input {
     text-align: center;
     display: block;
     position: relative;
-    top: 200px;
+    top: 100px;
 }
 input {
     margin: 10px;
@@ -40,10 +38,4 @@ input {
     font-size: 50px;
     margin: 5px;
     font-family: sans-serif;
-    overflow: scroll;
-}
-@media screen and (min-height: 745px) and (max-height: 695px){
-    .signin_menu {
-        top: 100px;
-    }
 }
