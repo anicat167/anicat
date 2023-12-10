@@ -3,7 +3,8 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="style.css"> 
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="login/login.css">
  <title>Anicat</title>
 </head>
 <body>
@@ -20,10 +21,14 @@
    </div> 
   </nav>
  </header>
- <section>
-   <h1>To Explore More</h1>
-   <h2><a href="login.html">Log in</a> or <a href="signin.html">Sign in</a></h2>      
- </section>
+ <div class="login_menu">
+  <h1>Log In</h1>   
+  <input type="email" placeholder="Enter Username" required/>
+  <br>
+  <input type="password" placeholder="Enter Password" required/>
+  <br>
+  <button class="submit_button" type="submit">Login</button>
+ </div>
  <script src="scripts.js"></script>
  <footer>
   <a class="footer_nav" href="https://discord.gg/qXawuBWu">Discord</a>
