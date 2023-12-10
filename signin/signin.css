@@ -38,4 +38,5 @@ input {
     font-size: 50px;
     margin: 5px;
     font-family: sans-serif;
+    overflow: auto;
 }
