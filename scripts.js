@@ -1,3 +1,6 @@
+
+document.body.innerHTML = "Site Is Currently Dropped";
+alert('Site is Currently Dropped');
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav_menu");
 

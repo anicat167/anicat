@@ -31,6 +31,7 @@ header {
     padding: 30px 10%;
     height: 90px;
     background-color: darkgray;
+    overflow: none;
 }
 nav {
     background-color: darkgray;
