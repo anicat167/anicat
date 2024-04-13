@@ -1,3 +1,3 @@
                       READ BELOW
 
-**Website is currently offline from fixing purposes**
+**Website is currently offline because of remake**
